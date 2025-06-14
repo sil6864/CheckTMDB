@@ -143,7 +143,7 @@ def get_csrf_token(udp):
     try:
         url = f'https://dnschecker.org/ajax_files/gen_csrf.php?udp={udp}'
         headers = {
-            'referer': 'https://dnschecker.org/country/cn/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
+            'referer': 'https://dnschecker.org/country/kr/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
         }
         
         response = requests.get(url, headers=headers)
@@ -160,8 +160,8 @@ def get_csrf_token(udp):
 
 @retry(tries=3)
 def get_domain_ips(domain, csrf_token, udp, argument):
-    url = f'https://dnschecker.org/ajax_files/api/20/{argument}/{domain}?dns_key=country&dns_value=cn&v=0.36&cd_flag=1&upd={udp}'
-    headers = {'csrftoken': csrf_token, 'referer':'https://dnschecker.org/country/cn/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
+    url = f'https://dnschecker.org/ajax_files/api/336/{argument}/{domain}?dns_key=country&dns_value=kr&v=0.36&cd_flag=1&upd={udp}'
+    headers = {'csrftoken': csrf_token, 'referer':'https://dnschecker.org/country/kr/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
     
     try:
         response = requests.get(url, headers=headers)
