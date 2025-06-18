@@ -23,29 +23,28 @@
 
 ```bash
 # Tmdb Hosts Start
-18.64.8.77                  tmdb.org
-3.167.192.35                api.tmdb.org
-18.244.60.49                files.tmdb.org
+18.64.8.129                 tmdb.org
+3.167.192.73                api.tmdb.org
+18.244.60.7                 files.tmdb.org
 13.225.117.96               themoviedb.org
-3.169.231.97                api.themoviedb.org
+3.169.231.116               api.themoviedb.org
 13.225.117.96               www.themoviedb.org
 18.244.60.51                auth.themoviedb.org
-109.61.83.249               image.tmdb.org
-169.150.225.43              images.tmdb.org
-52.94.225.248               imdb.com
+109.61.83.98                image.tmdb.org
+52.94.228.167               imdb.com
 3.171.188.200               www.imdb.com
-52.94.225.248               secure.imdb.com
+52.94.237.74                secure.imdb.com
 3.171.188.200               s.media-imdb.com
-52.94.225.248               us.dd.imdb.com
+52.94.228.167               us.dd.imdb.com
 3.171.188.200               www.imdb.to
 44.215.137.99               origin-www.imdb.com
-18.64.4.43                  ia.media-imdb.com
+3.168.168.196               ia.media-imdb.com
 3.168.165.87                thetvdb.com
 3.170.218.86                api.thetvdb.com
 3.170.218.164               ia.media-imdb.com
 146.75.49.16                f.media-amazon.com
-54.192.175.99               imdb-video.media-imdb.com
-# Update time: 2025-06-18T06:25:01+08:00
+54.192.175.77               imdb-video.media-imdb.com
+# Update time: 2025-06-18T18:29:01+08:00
 # IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
 # IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -53,25 +52,25 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-06-18T06:25:01+08:00
+该内容会自动定时更新， 数据更新时间：2025-06-18T18:29:01+08:00
 
 #### 2.1.2 IPv6地址复制下面的内容
 
 ```bash
 # Tmdb Hosts Start
-2600:9000:23e4:e600:10:db24:6940:93a1              tmdb.org
-2600:9000:27e0:5600:10:fb02:4000:93a1              api.tmdb.org
-2600:9000:276a:9a00:5:da10:7440:93a1               files.tmdb.org
-2600:9000:21d3:fe00:e:5373:440:93a1                themoviedb.org
-2600:9000:2864:9600:c:174a:c400:93a1               api.themoviedb.org
-2600:9000:21d3:e00:e:5373:440:93a1                 www.themoviedb.org
-2600:9000:276a:be00:16:e4a1:eb00:93a1              auth.themoviedb.org
-2400:52e0:1501::1098:1                             image.tmdb.org
-2400:52e0:1501::1098:1                             images.tmdb.org
-2600:9000:2810:e800:1d:d7f6:39d4:e6e1              ia.media-imdb.com
-2600:9000:23e4:3e00:1d:d7f6:39d4:e6e1              ia.media-imdb.com
+2600:9000:23e4:1800:10:db24:6940:93a1              tmdb.org
+2600:9000:27e0:3800:10:fb02:4000:93a1              api.tmdb.org
+2600:9000:276a:e200:5:da10:7440:93a1               files.tmdb.org
+2600:9000:21d3:9a00:e:5373:440:93a1                themoviedb.org
+2600:9000:2864:8800:c:174a:c400:93a1               api.themoviedb.org
+2600:9000:21d3:f400:e:5373:440:93a1                www.themoviedb.org
+2600:9000:276a:c600:16:e4a1:eb00:93a1              auth.themoviedb.org
+2400:52e0:1501::990:1                              image.tmdb.org
+2400:52e0:1501::1185:1                             images.tmdb.org
+2600:9000:2810:c00:1d:d7f6:39d4:e6e1               ia.media-imdb.com
+2600:9000:2891:c600:1d:d7f6:39d4:e6e1              ia.media-imdb.com
 2a04:4e42:7c::272                                  f.media-amazon.com
-# Update time: 2025-06-18T06:25:01+08:00
+# Update time: 2025-06-18T18:29:01+08:00
 # IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
 # IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
@@ -79,7 +78,7 @@
 
 ```
 
-该内容会自动定时更新， 数据更新时间：2025-06-18T06:25:01+08:00
+该内容会自动定时更新， 数据更新时间：2025-06-18T18:29:01+08:00
 
 > [!NOTE]
 > 由于项目搭建在Github Aciton，延时数据获取于Github Action 虚拟主机网络环境，请自行测试可用性，建议使用本地网络环境自动设置。
