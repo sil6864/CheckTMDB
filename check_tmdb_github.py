@@ -163,7 +163,7 @@ def get_csrf_token(udp):
 @retry(tries=3)
 def get_domain_ips(domain, csrf_token, udp, argument):
     url = f'https://dnschecker.org/ajax_files/api/220/{argument}/{domain}?dns_key=country&dns_value={country_code}&v=0.36&cd_flag=1&upd={udp}'
-    headers = {'csrftoken': csrf_token, 'referer':f'https://dnschecker.org/country/{country_code}/'，'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
+    headers = {'csrftoken': csrf_token, 'referer':f'https://dnschecker.org/country/{country_code}/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'}
     
     try:
         response = requests.get(url, headers=headers)
