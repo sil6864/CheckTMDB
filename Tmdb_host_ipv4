@@ -1,27 +1,27 @@
 # Tmdb Hosts Start
-13.35.49.52                 tmdb.org
-18.65.229.63                api.tmdb.org
+13.35.49.12                 tmdb.org
+18.238.192.8                api.tmdb.org
 13.227.62.36                files.tmdb.org
-3.166.244.95                themoviedb.org
-18.238.238.127              api.themoviedb.org
+3.166.244.54                themoviedb.org
+65.8.161.37                 api.themoviedb.org
 3.166.244.54                www.themoviedb.org
 3.169.5.46                  auth.themoviedb.org
-84.17.38.232                image.tmdb.org
-84.17.38.231                images.tmdb.org
-52.94.228.167               imdb.com
-13.225.166.201              www.imdb.com
-52.94.228.167               secure.imdb.com
+89.187.162.242              image.tmdb.org
+84.17.38.228                images.tmdb.org
+52.94.225.248               imdb.com
+18.65.91.206                www.imdb.com
+52.94.225.248               secure.imdb.com
 13.225.166.201              s.media-imdb.com
-52.94.228.167               us.dd.imdb.com
-13.225.166.201              www.imdb.to
+52.94.237.74                us.dd.imdb.com
+18.65.91.206                www.imdb.to
 44.215.137.99               origin-www.imdb.com
-3.173.217.20                ia.media-imdb.com
-13.32.60.81                 thetvdb.com
-13.225.160.82               api.thetvdb.com
-23.205.90.187               ia.media-imdb.com
+23.204.75.155               ia.media-imdb.com
+18.65.144.82                thetvdb.com
+18.65.130.116               api.thetvdb.com
+151.101.89.16               ia.media-imdb.com
 151.101.89.16               f.media-amazon.com
-3.166.205.60                imdb-video.media-imdb.com
-# Update time: 2025-06-26T18:29:10+08:00
+3.166.205.4                 imdb-video.media-imdb.com
+# Update time: 2025-06-27T06:25:28+08:00
 # IPv4 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv4
 # IPv6 Update url: https://raw.githubusercontent.com/cnwikee/CheckTMDB/refs/heads/main/Tmdb_host_ipv6
 # Star me: https://github.com/cnwikee/CheckTMDB
